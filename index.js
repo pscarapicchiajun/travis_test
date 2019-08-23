@@ -5,6 +5,6 @@ app.get('/', (req, res) =>
   res.send('Hello from Chronos v0')
 );
 
-app.listen(3000, () => {
+app.listen(80, () => {
   console.log('Server init');
 });
