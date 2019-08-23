@@ -5,6 +5,7 @@ app.get('/', (req, res) =>
   res.send('Hello from Chronos v1')
 );
 
-app.listen(80, () => {
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
   console.log('Server init');
 });
